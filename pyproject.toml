@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hands-on"
+version = "0.1.0"
+description = ""
+authors = ["shubham Mandowara <shubham77mandowara@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hands_on"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+loguru = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
